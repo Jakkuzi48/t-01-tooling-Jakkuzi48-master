@@ -1,0 +1,19 @@
+{
+  "name": "t-01-tooling-jakkuzi48-master",
+  "version": "1.0.0",
+  "description": "Assignment for PV247",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jakkuzi48/t-01-tooling-Jakkuzi48-master.git"
+  },
+  "author": "Jakub Zich (456431)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jakkuzi48/t-01-tooling-Jakkuzi48-master/issues"
+  },
+  "homepage": "https://github.com/Jakkuzi48/t-01-tooling-Jakkuzi48-master#readme"
+}
