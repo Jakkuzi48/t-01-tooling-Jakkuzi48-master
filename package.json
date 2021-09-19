@@ -4,7 +4,9 @@
   "description": "Assignment for PV247",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx ts-node ./src/index.ts",
+    "lint": "eslint \"./src/**/*.{ts,tsx}\" && prettier \"./src/**/*.{ts,tsx}\" --check"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,5 @@
     "extends": "haaxor1689s-config"
   },
   "prettier": "prettier-config-haaxor1689s-config",
-  "build": "npx ts-node ./src/index.ts",
-  "lint": "eslint \"./src/**/*.{ts,tsx}\" && prettier \"./src/**/*.{ts,tsx}\" --check"
+  "devDependencies": {}
 }
